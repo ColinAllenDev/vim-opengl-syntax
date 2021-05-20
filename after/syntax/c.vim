@@ -5,11 +5,11 @@
 " ======= OpenGL Types ======
 
 " Data Types
-syntax keyword glType_int 
-      \ GLbyte GLshort GLint GLfixed GLint64 GLintptr
-syntax keyword glType_uint 
-      \ GLubyte GLushort GLuint GLuint64
+syntax keyword glType
+      \ GLbyte GLshort GLint GLfixed GLint64 GLintptr 
+      \ GLubyte GLushort GLuint GLuint64 GLclampf GLhalf GLbitfield
+      \ GLfloat GLboolean GLenum GLsizeiptr GLclampf GLsync GLclampd GLdouble
+
 
 " Default Highlighting
-hi default link glType_int Type
-hi default link glType_uint Type
+hi default link glType Type
